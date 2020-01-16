@@ -38,26 +38,26 @@
         >
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link go-services" href="#">Nos Services</a>
+              <a class="nav-link go-services" href="#">Offre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link go-expertises" href="#">Nos Expertises</a>
+              <a class="nav-link go-expertises" href="#">Expertise</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link go-clients" href="#">Nos Clients</a>
+              <a class="nav-link go-clients" href="#">Clients</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link go-team" href="#">Notre Équipe</a>
+              <a class="nav-link go-team" href="#">Équipe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link go-blog" href="#">Blog</a>
+              <a class="nav-link go-blog" href="#">Actualité</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link go-contact" href="#">Contactez-Nous</a>
+              <a class="nav-link go-contact" href="#">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="join-us.html" id="nav-join-us">
-                Rejoignez-Nous
+                Rejoindre
               </a>
             </li>
           </ul>
@@ -82,7 +82,57 @@
 </div>
 <!-- End Title Join Us Area -->
 
-    <!-- Start Contact Info Area -->
+    <!-- Start About Us Area -->
+<section class="about-us-area ptb-120">
+  <div class="container">
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-12">
+        <div class="about-us-content">
+          <div class="section-title">
+            <h2 style="max-width: 100%">Candidature spontanée: WANTED</h2>
+          </div>
+          <p>
+            Guimini est à la recherche de:
+            <br />
+            - Consultant technique salesforce confirmé/senior
+            <br />
+            - Consultant fonctionnel senior
+            <br />
+            <br />
+            Tu es à la recherche d’une expérience riche en apprentissage et
+            challengeante?
+            <br />
+            Parce que ce qui t'importe ce n’est pas uniquement ce que tu es
+            capable de faire, mais ce que nous sommes capable de faire ensemble.
+            <br />
+            Parce que tu veux faire partie du voyage et viser les étoiles/ la
+            lune avec nous ?
+            <br />
+            Alors c'est ici que ça se passe !
+          </p>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="single-team-box">
+                <div class="team-content">
+                  <h3>Consultant(e) technique Salesforce confirmé/senior</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="single-team-box">
+                <div class="team-content">
+                  <h3>Consultant(e) fonctionnel senior</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End About Us Area -->
+<!-- Start Contact Info Area -->
 <section class="contact-info-area ptb-120">
   <div class="container">
     <div class="row">
@@ -140,14 +190,35 @@
       <div class="col-lg-6 col-md-12">
         <form id="contactForm">
           <div class="row">
-            <div class="col-lg-12 col-md-12">
+            <div class="col-lg-3 col-md-3">
+              <div class="form-group">
+                <select class="form-control">
+                  <option selected>Civilité</option>
+                  <option value="M.">M.</option>
+                  <option value="Mme">Mme</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  type="text"
+                  required
+                  data-error="Veuillez entrer votre prénom"
+                  placeholder="Prénom*"
+                />
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-5">
               <div class="form-group">
                 <input
                   class="form-control"
                   type="text"
                   required
                   data-error="Veuillez entrer votre nom"
-                  placeholder="Nom"
+                  placeholder="Nom*"
                 />
                 <div class="help-block with-errors"></div>
               </div>
@@ -158,8 +229,20 @@
                   class="form-control"
                   type="email"
                   required
-                  data-error="Veuillez entrer votre courriel"
-                  placeholder="Courriel"
+                  data-error="Veuillez entrer votre email"
+                  placeholder="Email*"
+                />
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  type="text"
+                  required
+                  data-error="Veuillez entrer votre entreprise"
+                  placeholder="Entreprise*"
                 />
                 <div class="help-block with-errors"></div>
               </div>
@@ -168,7 +251,10 @@
               <div class="form-group">
                 <input
                   class="form-control"
-                  type="text"
+                  type="tel"
+                  size="12"
+                  minlength="10"
+                  maxlength="12"
                   placeholder="Téléphone"
                 />
               </div>
@@ -188,7 +274,7 @@
                   rows="5"
                   required
                   data-error="Ecrivez votre message"
-                  placeholder="Votre Message"
+                  placeholder="Votre Message*"
                 ></textarea>
                 <div class="help-block with-errors"></div>
               </div>
