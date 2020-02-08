@@ -31,7 +31,7 @@
   <div class="artflex-mobile-nav">
     <div class="logo">
       <a href="index.html">
-        <img src="img/logo.png" alt="logo" />
+        <img src="img/logo.png" height="48" alt="logo" />
       </a>
     </div>
   </div>
@@ -39,7 +39,7 @@
     <div class="container-fluid">
       <nav class="navbar navbar-expand-md navbar-light">
         <a class="navbar-brand" href="index.html">
-          <img src="img/logo.png" alt="logo" />
+          <img src="img/logo.png" height="48" alt="logo" />
         </a>
         <div
           class="collapse navbar-collapse mean-menu"
@@ -85,9 +85,19 @@
       <div class="container">
         <div class="row h-100 align-items-center">
           <div class="col-lg-8 col-md-12">
-            <div class="hero-content" style="margin-top: 0">
-              <h1 class="wow fadeInUp" style="text-transform: none">
-                Votre partenaire conseil et intégration Salesforce
+            <div class="hero-content text-center" style="margin-top: 0">
+              <h1
+                class="wow fadeInUp"
+                style="text-transform: none; font-size: 50px;"
+              >
+                Votre partenaire conseil et
+                <br />
+                intégration Salesforce
+                <img
+                  src="img/salesforce.png"
+                  height="47px"
+                  alt="salesforce"
+                />
               </h1>
             </div>
           </div>
@@ -100,15 +110,18 @@
       </div>
     </div>
   </div>
-  <div class="circle-shape1">
-    <img src="img/circle1.png" alt="shape" />
+  <!-- <div class="shape4">
+    <img src="img/circle.png" alt="shape" />
   </div>
-  <div class="circle-shape2">
-    <img src="img/circle2.png" alt="shape" />
+  <div class="shape6">
+    <img src="img/circle.png" alt="shape" />
   </div>
-  <div class="circle-shape3">
-    <img src="img/circle3.png" alt="shape" />
+  <div class="shape7">
+    <img src="img/circle.png" alt="shape" />
   </div>
+  <div class="shape8">
+    <img src="img/circle.png" alt="shape" />
+  </div> -->
 </div>
 <!-- End Banner Area -->
  <!-- Start Offer Area -->
@@ -479,7 +492,7 @@
         <div class="single-footer-widget">
           <div class="logo wow fadeInUp">
             <a href="#">
-              <img src="img/footer-logo.png" alt="logo" />
+              <img src="img/footer-logo.png" height="48" alt="logo" />
             </a>
           </div>
           <p>Votre partenaire conseil et intégration Salesforce</p>
@@ -555,17 +568,16 @@
           <ul class="footer-contact-info">
             <li>
               <i class="icofont-google-map"></i>
-              <span>Adresse:</span>
-              75 Rue d'Amsterdam, 75008 Paris
+              75 Rue d'Amsterdam
+              <br />
+              75008 Paris
             </li>
             <li>
               <i class="icofont-phone"></i>
-              <span>Téléphone:</span>
               <a href="tel:+33184259505">+33 1 84 25 95 054</a>
             </li>
             <li>
               <i class="icofont-email"></i>
-              <span>Email:</span>
               <a href="mailto:contact@guimini.com" target="_top">
                 contact@guimini.com
               </a>
@@ -579,12 +591,6 @@
         <div class="col-lg-6 col-md-6 wow fadeInDown">
           <p>Copyright @2020. Tous droits réservés.</p>
         </div>
-        <div class="col-lg-6 col-md-6 text-right wow fadeInLeft">
-          <p>
-            Design & Dévelopé par
-            <a href="https://lacoludo.com" target="_blank">Ludovic Lacouture</a>
-          </p>
-        </div>
       </div>
     </div>
   </div>
@@ -597,14 +603,21 @@
 </div>
 <!-- End Go Top -->
 
-    <div class="alert text-center cookiealert">
+    <div class="alert text-center cookie-alert" style="font-size: 15px">
   <b>Aimez-vous les cookies?</b> 🍪 Nous utilisons des cookies pour vous
   garantir la meilleure expérience sur notre site web.
-  <a class="text-white" href="https://cookiesandyou.com/" target="_blank">
+  <a
+    class="text-white"
+    href="https://www.cnil.fr/fr/cookies-et-autres-traceurs"
+    target="_blank"
+  >
     En savoir plus
   </a>
-  <button class="btn btn-primary btn-sm acceptcookies" type="button">
-    Je suis d'accord
+  <button class="btn btn-outline-light cookie-decline" type="button">
+    Je refuse
+  </button>
+  <button class="btn btn-primary cookie-accept" type="button">
+    J'accepte
   </button>
 </div>
 
